@@ -49,6 +49,7 @@ p {
   color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
+  margin-right: 5px;
   padding: 18px 30px;
   text-decoration: none;
 }
@@ -58,6 +59,23 @@ p {
   border: 1px solid var(--primary-color);
   transition: 1s ease-in-out;
 }
+.about-me {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 5px;
+  padding: 18px 30px;
+  text-decoration: none;
+}
+.about-me:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: 1s ease-in-out;
+}
+
 .container {
   text-align: center;
 }
@@ -88,6 +106,7 @@ p {
 }
 img {
   background: var(--secondary-color);
+  border-radius: 10px;
 }
 .project-description {
   padding: 120px 60px;
