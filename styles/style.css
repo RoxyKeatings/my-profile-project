@@ -39,14 +39,9 @@ p {
 }
 .alpha h1 {
   font-size: 96px;
-  text-align: center;
-}
-.alpha h2 {
-  color: var(--primary-color);
-  font-family: var(--default-font-family);
+  font-family: var(-default-font-family);
   font-weight: normal;
-  font-size: 24px;
-  line-height: 2;
+  line-height: 1;
 }
 .contact-me {
   background: var(--primary-color);
@@ -63,22 +58,20 @@ p {
   border: 1px solid var(--primary-color);
   transition: 1s ease-in-out;
 }
-.bravo {
-  background: var(--secondary-color);
-  padding: 160px 20px;
+.container {
   text-align: center;
 }
-.bravo h2 {
+.container h2 {
   font-size: 64px;
   font-weight: bold;
 }
-.bravo p {
+.container p {
   color: var(--primary-color);
   font-family: var(--default-font-family);
   line-height: 30px;
   margin: 0;
 }
-.bravo a {
+.container a {
   background: var(--primary-color);
   border-radius: 4px;
   color: var(--secondary-color);
@@ -87,9 +80,28 @@ p {
   padding: 18px 30px;
   text-decoration: none;
 }
-.bravo a:hover {
+.container a:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   transition: 1s ease-in-out;
+}
+img {
+  background: var(--secondary-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
