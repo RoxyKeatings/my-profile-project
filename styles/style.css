@@ -135,9 +135,14 @@ img {
   line-height: 2;
   margin: 75px auto;
 }
-.e-mail {
+.social-links a {
   text-decoration: none;
+  color: var(--primary-color);
 }
-footer {
-  text-align: center;
+.text-center {
+  text-align: center !important;
+}
+.footer a {
+  font-size: 30px;
+  color: var(--primary-color);
 }
