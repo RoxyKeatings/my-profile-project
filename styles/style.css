@@ -17,9 +17,6 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-h2 {
-  font-size: 64px;
-}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -108,11 +105,18 @@ img {
   background: var(--secondary-color);
   border-radius: 10px;
 }
+.about-container {
+  text-align: center;
+  font-size: 40px;
+  line-height: 2;
+  margin: 75px auto;
+}
 .project-description {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
   h1 {
+    margin: 75px auto;
     font-size: 40px;
     line-height: 1;
   }
@@ -124,14 +128,12 @@ img {
     text-align: center;
   }
 }
-.page-title {
-  margin: 75px auto;
-  text-align: center;
-}
+
 .contact-container {
   text-align: center;
   font-size: 40px;
   line-height: 2;
+  margin: 75px auto;
 }
 .e-mail {
   text-decoration: none;
