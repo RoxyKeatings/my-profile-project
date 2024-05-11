@@ -124,3 +124,18 @@ img {
     text-align: center;
   }
 }
+.page-title {
+  margin: 75px auto;
+  text-align: center;
+}
+.contact-container {
+  text-align: center;
+  font-size: 40px;
+  line-height: 2;
+}
+.e-mail {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+}
