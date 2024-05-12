@@ -127,6 +127,10 @@ img {
     padding: 0;
     text-align: center;
   }
+  .social-links {
+    font-size: 30px;
+    line-height: 3;
+  }
 }
 
 .contact-container {
