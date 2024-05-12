@@ -1,6 +1,11 @@
 :root {
   --primary-color: #272142;
   --secondary-color: #f9f7fe;
+  --navbar-color: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -16,6 +21,18 @@ h6 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
+}
+.navbar-custom {
+  background: var(--navbar-color);
+}
+.navbar-brand {
+  color: var(--secondary-color) !important;
+}
+.navbar-toggler-icon button {
+  color: var(--secondary-color) !important;
+}
+.nav-link {
+  color: var(--secondary-color) !important;
 }
 p {
   font-weight: normal;
@@ -135,7 +152,7 @@ img {
 
 .contact-container {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 2;
   margin: 75px auto;
 }
