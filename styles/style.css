@@ -132,6 +132,9 @@ img {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
+  body {
+    position: absolute;
+  }
   h1 {
     margin: 75px auto;
     font-size: 40px;
