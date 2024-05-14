@@ -34,6 +34,9 @@ h6 {
 .nav-link {
   color: var(--secondary-color) !important;
 }
+.active {
+  color: #786393 !important;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -123,7 +126,7 @@ img {
   border-radius: 10px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -147,7 +150,6 @@ img {
     position: absolute;
   }
   h1 {
-    margin: 75px auto;
     font-size: 40px;
     line-height: 1;
   }
@@ -177,8 +179,17 @@ img {
   text-decoration: none;
   color: var(--primary-color);
 }
+.social-links:hover {
+  background: #786393;
+}
 .text-center {
   text-align: center !important;
+}
+footer {
+  background: var(--secondary-color);
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  padding: 30px;
 }
 .footer a {
   font-size: 30px;
