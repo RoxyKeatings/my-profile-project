@@ -194,6 +194,10 @@ strong {
   width: 75%;
   background-color: var(--primary-color);
 }
+.bootstrap {
+  width: 65%;
+  background-color: var(--primary-color);
+}
 .content-container {
   padding: 100px 20px;
 }
