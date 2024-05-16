@@ -55,6 +55,10 @@ p {
   font-weight: bold;
   margin: 0;
 }
+.hello {
+  -webkit-text-stroke-color: var(--secondary-color);
+  -webkit-text-stroke-width: 1px;
+}
 .alpha h1 {
   font-size: 96px;
   font-family: var(-default-font-family);
@@ -64,6 +68,7 @@ p {
 .contact-me {
   background: var(--primary-color);
   border-radius: 4px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0.8, 0.8);
   color: var(--secondary-color);
   display: inline-block;
   font-size: 18px;
@@ -75,11 +80,12 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  transition: 1.5s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .about-me {
   background: var(--primary-color);
   border-radius: 4px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0.8, 0.8);
   color: var(--secondary-color);
   display: inline-block;
   font-size: 18px;
@@ -91,7 +97,7 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  transition: 1.5s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .container {
@@ -113,6 +119,7 @@ p {
 .container a {
   background: var(--navbar-color);
   border-radius: 4px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0.2, 0.5);
   color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
@@ -123,7 +130,7 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  transition: 1.5s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 img {
   background: var(--secondary-color);
@@ -168,7 +175,7 @@ strong {
   background-color: var(--primary-color);
 }
 .seo {
-  width: 40%;
+  width: 60%;
   background-color: var(--primary-color);
 }
 .vs-code {
@@ -176,11 +183,11 @@ strong {
   background-color: var(--primary-color);
 }
 .api {
-  width: 40%;
+  width: 55%;
   background-color: var(--primary-color);
 }
 .ai {
-  width: 50%;
+  width: 65%;
   background-color: var(--primary-color);
 }
 .git {
@@ -207,30 +214,7 @@ strong {
   font-weight: 400;
   font-family: var(--default-font-family);
 }
-@media (max-width: 900px) {
-  body {
-    position: absolute;
-  }
-  h1 {
-    font-size: 40px;
-    line-height: 1;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .social-links {
-    font-size: 30px;
-    line-height: 3;
-  }
-  .profile-container {
-    text-align: center;
-    padding: 0;
-  }
-}
+
 .contact-container {
   text-align: center;
   font-size: 45px;
@@ -256,4 +240,28 @@ footer {
 .footer a {
   font-size: 30px;
   color: var(--primary-color);
+}
+@media (max-width: 900px) {
+  body {
+    position: absolute;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .social-links {
+    font-size: 30px;
+    padding: 30px;
+  }
+  .profile-container {
+    text-align: center;
+    padding: 0;
+  }
 }
