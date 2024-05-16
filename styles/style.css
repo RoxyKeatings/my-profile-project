@@ -127,8 +127,12 @@ p {
 }
 img {
   background: var(--secondary-color);
-  border-radius: 100%;
-  box-shadow: (0, 0, 0, 0.9);
+  border-radius: 10px;
+}
+.profile-picture {
+  background: var(--secondary-color);
+  border-radius: 15px;
+  box-shadow: (0, 0, 1.5, 1.5);
 }
 strong {
   color: #786393;
@@ -146,8 +150,8 @@ strong {
 
 .skills {
   text-align: right;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   color: white;
 }
 
@@ -165,6 +169,22 @@ strong {
 }
 .seo {
   width: 40%;
+  background-color: var(--primary-color);
+}
+.vs-code {
+  width: 70%;
+  background-color: var(--primary-color);
+}
+.api {
+  width: 40%;
+  background-color: var(--primary-color);
+}
+.ai {
+  width: 50%;
+  background-color: var(--primary-color);
+}
+.git {
+  width: 75%;
   background-color: var(--primary-color);
 }
 .content-container {
