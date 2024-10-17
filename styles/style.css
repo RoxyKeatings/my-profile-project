@@ -254,8 +254,18 @@ footer {
     position: absolute;
   }
   h1 {
-    font-size: 40px;
+    font-size: 20px;
     line-height: 1;
+  }
+  .alpha{
+    font-size: 20px;
+  }
+  .alpha h1{
+    font-size: 20px;
+  }
+  .alpha h2{
+    font-size: 12px;
+
   }
   h2 {
     font-size: 20px;
@@ -272,4 +282,49 @@ footer {
     text-align: center;
     padding: 0;
   }
+  footer {
+    background: var(--secondary-color);
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+    padding: 8px;
+  }
+  .footer a {
+    font-size: 15px;
+    color: var(--primary-color);
+  }
+  .contact-me {
+    background: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0.8, 0.8);
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 12px 18px;
+    text-decoration: none;
+  }
+  .contact-me:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: all 200ms ease-in-out;
+  }
+  .about-me {
+    background: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0.8, 0.8);
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 12px 18px;
+    text-decoration: none;
+  }
+  .about-me:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: all 200ms ease-in-out;
+  }
+  
 }
